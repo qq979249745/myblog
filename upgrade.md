@@ -12,6 +12,3 @@
 
 * 导航栏显示问题修改
 
-#### 20190902
-
-* 添加开发文档[《SpringBoot + Mybatis + Thymeleaf 搭建美观实用的个人博客》](https://www.shiyanlou.com/courses/1367)

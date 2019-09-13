@@ -23,10 +23,9 @@ import java.util.Random;
 import java.util.UUID;
 
 /**
- * @author 13
- * @qq交流群 796794009
- * @email 2449207463@qq.com
- * @link http://13blog.site
+ * @author DLBJ
+ * @email 979249745@qq.com
+ * @link http://b.donglibajiu.cn
  */
 @Controller
 @RequestMapping("/admin")

@@ -14,6 +14,7 @@
         .hljs {
             background: none;
         }
+
         pre code {
             white-space: pre;
         }
@@ -26,7 +27,7 @@
             max-width: 890px;
         }
     </style>
-
+    <script src="/blog/default/js/aixin.js"></script>
 </head>
 <body>
 <div th:replace="blog/amaze/header::nav-fragment"></div>
@@ -139,6 +140,42 @@
             </ul>
         </th:block>
     </aside>
+    <div>
+        <div style="padding:10px 0;margin:20px auto;width:90%;text-align:center;color:#878787">
+            <div>请作者喝瓶肥宅水~</div>
+            <button id="rewardButton" style="margin-top:10px"
+                    onclick="var e=document.getElementById('QR');'none'===e.style.display?e.style.display='block':e.style.display='none'">
+                <span style="display: inline-block;height:46px;width:46px;line-height:46px;border-radius:50%;color:#fe5f55;font-weight:600;background:#ffd5be;border:none;box-shadow:0 4px 8px 0 rgba(255,213,190,.4)">￥</span>
+            </button>
+            <div id="QR" style="display: none;">
+                <div id="wechat" style="display:inline-block"><img id="wechat_qr"
+                                                                                       src="/blog/default/img/wxpay.jpg"
+                                                                                       alt="WeChat Pay"></div>
+                <div id="alipay" style="display:inline-block"><img id="alipay_qr"
+                                                                                       src="/blog/default/img/alipay.jpg"
+                                                                                       alt="Alipay"></div>
+            </div>
+        </div>
+        <style>#QR img {
+            margin: .8em 1em 0 1em;
+            width: 150px;
+            height: 150px;
+        }
+        #rewardButton {
+            cursor: pointer;
+            border: 0;
+            outline: 0;
+            border-radius: 100%;
+            padding: 0;
+            margin: 0;
+            letter-spacing: normal;
+            text-transform: none;
+            text-indent: 0;
+            text-shadow: none;
+        }
+        </style>
+    </div>
+
     <th:block th:if="${blogDetailVO.enableComment==0}">
         <aside class="create-comment" id="create-comment">
             <hr>

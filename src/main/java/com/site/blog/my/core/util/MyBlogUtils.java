@@ -5,7 +5,9 @@ import org.springframework.util.StringUtils;
 import java.net.URI;
 
 /**
- * @author 13
+ * @author DLBJ
+ * @email 979249745@qq.com
+ * @link http://b.donglibajiu.cn
  */
 public class MyBlogUtils {
 

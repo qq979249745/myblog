@@ -5,10 +5,9 @@ import org.springframework.util.StringUtils;
 /**
  * 响应结果生成工具
  *
- * @author 13
- * @qq交流群 796794009
- * @email 2449207463@qq.com
- * @link http://13blog.site
+ * @author DLBJ
+ * @email 979249745@qq.com
+ * @link http://b.donglibajiu.cn
  */
 public class ResultGenerator {
     private static final String DEFAULT_SUCCESS_MESSAGE = "SUCCESS";
