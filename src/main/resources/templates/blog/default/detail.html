@@ -5,6 +5,7 @@
     <title th:text="${configurations.get('websiteName')}+' | '+${pageName}">详情页</title>
     <meta name="description" th:content="${configurations.get('websiteDescription')}">
     <meta name="viewport" content="width=device-width">
+    <meta name="referrer" content="no-referrer"/>
     <link rel="shortcut icon" th:href="@{${configurations.get('websiteIcon')}}"/>
     <!-- Bootstrap styles -->
     <link rel="stylesheet" th:href="@{/blog/default/css/bootstrap.min.css}">
